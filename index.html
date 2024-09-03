@@ -1,122 +1,169 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maitreyi Pareek Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+            color: #004d99;
+        }
+        .header a {
+            color: #004d99;
+            text-decoration: none;
+        }
+        .header a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            background-color: #004d99;
+            color: white;
+            padding: 5px 10px;
+            margin: 20px 0 10px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        .section-title i {
+            margin-right: 10px;
+        }
+        .content {
+            margin-bottom: 20px;
+        }
+        .content h3 {
+            color: #004d99;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .content p {
+            margin: 5px 0;
+        }
+        .skills-list, .courses-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li, .courses-list li {
+            display: inline-block;
+            margin-right: 15px;
+            background-color: #e6f0ff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
-
 <body>
+    <div class="header">
+        <h1>Maitreyi Pareek</h1>
+        <p><a href="https://www.linkedin.com/in/maitreyi-pareek/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> | (949)-572-3363 | <a href="mailto:maitreyp@uci.edu">maitreyp@uci.edu</a> | Irvine, CA</p>
+    </div>
 
-    <h1>Maitreyi Pareek's Resume</h1>
+    <div class="content">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Education</h2>
+        <h3>University of California, Irvine</h3>
+        <p>Bachelors in Computer Science and Engineering, Economics, June 2025</p>
+        <p>GPA: 3.6, Dean's Honor List (4 quarters)</p>
+        <ul class="courses-list">
+            <li>Organization of Digital Computers</li>
+            <li>Electronic Devices and Circuits</li>
+            <li>Embedded Software</li>
+            <li>Data Structure Implementation and Analysis</li>
+            <li>Design and Analysis of Algorithms</li>
+            <li>Principles of Operating Systems</li>
+        </ul>
+    </div>
 
+    <div class="content">
+        <h2 class="section-title"><i class="fas fa-code"></i> Technical Skills</h2>
+        <ul class="skills-list">
+            <li>Python</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>MySQL</li>
+            <li>R</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Verilog</li>
+            <li>VHDL</li>
+            <li>Lisp</li>
+            <li>Prolog</li>
+        </ul>
+        <ul class="skills-list">
+            <li>Bootstrap</li>
+            <li>Flask</li>
+            <li>Tensorflow</li>
+        </ul>
+    </div>
 
-    <h3>Education</h3>
-    <h4>University of California, Irvine</h4>
-    <ul>
-        <li>GPA: 3.5 Dean's Honor List (5 quarters)</li>
-        <li>Engineering Courses: Organization of Digital Computers, Electronic Devices and Circuits, Embedded Software
-        </li>
-        <li>Programming Courses : Data Structure Implementation and Analysis, Design and Analysis of Algorithms,
-            Principles
-            of Operating Systems</li>
-    </ul>
-    <hr>
+    <div class="content">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i> Work Experience</h2>
 
-    <h3>Technical Skills</h3>
-    <ul>
-        <li>Computer Languages: Python, Java, C++, C, MySQL, R, HTML, CSS, Verilog, VHDL, Lisp, Prolog</li>
-        <li>Operating System: Windows, iOS, Linux</li>
-    </ul>
-    <hr>
-
-    <h3>Work Experiences</h3>
-    <ul>
-        <li>
-            <h4>Office of Information and Technology - Academic Web Technologies (OIT - AWT)
-            </h4>
-        </li>
-        <h4>Web Application Quality Assurance Engineer | Irvine, CA (April 2023-Present)</h4>
+        <h3>Office of Information and Technology - Academic Web Technologies (OIT - AWT)</h3>
+        <p><strong>Web Application Quality Assurance Engineer | Irvine, CA</strong> | April 2023 - Present</p>
         <ul>
-            <li>Created comprehensive test plans for exploratory and regression testing across 9 web applications,
-                ensuring functionality and uncovering bugs</li>
-            <li>Collaborated closely with developers and user experience designers to effectively communicate testing
-                outcomes and bug reports ensuring that they met all requirements and user stories</li>
-            <li>Conducted rigorous functional testing, full regression on 9 web applications, identifying and reporting
-                bugs via JIRA</li>
-            <li>Demonstrated proactive problem-solving by deploying different branches on Jenkins and simulating user
-                interactions to uncover system-wide bugs and correlations</li>
+            <li>Created comprehensive test plans for exploratory and regression testing across 9 web applications, ensuring functionality and uncovering bugs.</li>
+            <li>Collaborated closely with developers and user experience designers to communicate testing outcomes and bug reports effectively.</li>
+            <li>Conducted rigorous functional testing, full regression on 9 web applications, identifying and reporting bugs via JIRA.</li>
+            <li>Proactively deployed different branches on Jenkins and simulated user interactions to uncover system-wide bugs and correlations.</li>
         </ul>
 
-        <li>
-            <h4>Research with Professor QV | Irvine, CA Jan 2024-Present
-            </h4>
-            <ul>
-                <li>Part of a team to design, develop, and implement a hydroponics system aimed at optimizing plant
-                    growth and health</li>
-                <li>Developed and trained a sophisticated machine learning algorithm to identify and interpret color
-                    data, which served as a basis for detecting pH levels within the hydroponic environment</li>
-            </ul>
-        </li>
-
-        <li>
-            <h4>Engineer at UAV Forge April 2023-Present</h4>
-        </li>
+        <h3>BRDG Showcase Challenge | Irvine, CA</h3>
+        <p><strong>Team Leader, System Engineer, Software Engineer</strong> | June 2024 - Present</p>
         <ul>
-            <li>Contributed to the development of autonomous drones by specializing in the navigation aspect of the
-                project. Gained proficiency in programming languages and syntax relevant to drone navigation</li>
-            <li>Modified the current script to include waypoint altitudes as well as longitudes/ latitudes</li>
-            <li>Created a visualization interface to visualize the targets, dropzone and boundary</li>
+            <li>Prototyped an end-to-end system engineering solution for repurposing PVC. Conducted research on PVC recycling challenges and integrated AI tools for innovative solutions, enhancing project impact.</li>
+            <li>Led a cross-functional team, facilitated meetings, and made strategic decisions ensuring the project met all objectives.</li>
         </ul>
 
-    </ul>
-    <hr>
-    <h3>Academic Tutoring Experience </h3>
-    <h4>UC IRVINE ICS31, ICS32</h4>
-    <h4>Lab Tutor</h4>
-    <ul>
-        <li>Provided personalized feedback and guidance to help students improve their conceptual understanding and
-            build confidence in programming
-        </li>
-        <li>Assisted 200+ students during lab hours on projects, assignments and conceptual questions. Developed and
-            maintained a positive and supportive learning environment</li>
-        <li>Assisted the Professor during lecture hours by monitoring student comprehension and providing targeted
-            explanations and examples to promote understanding</li>
-        <li>Organized and led weekly office hours to provide guidance on weekly labs and projects, resulting in an
-            increase of student participation and improvement in exam scores</li>
-        <li>Responded prompts and effectively to student questions on a public discussion platform
-        </li>
-    </ul>
-    <hr>
-    <h3>Leadership Experience</h3>
-    <ul>
-        <li>
-            <h4>UC Irvine Samueli School of Engineering
-                Engineering Network Ambassador Mar 2024-Present
-            </h4>
-            <ul>
-                <li>
-                    Motivated hundreds of high school and community college students to pursue engineering at UCI by
-                    providing relevant information and personal experience
-                </li>
-            </ul>
-        </li>
+        <h3>Research with Professor QV | Irvine, CA</h3>
+        <p><strong>Research Assistant</strong> | Jan 2024 - June 2024</p>
+        <ul>
+            <li>Part of a team to design, develop, and implement a hydroponics system aimed at optimizing plant growth and health.</li>
+            <li>Developed and trained a sophisticated machine learning algorithm to identify and interpret color data, which served as a basis for detecting pH levels within the hydroponic environment.</li>
+        </ul>
 
-        <li>
-            <h4>UC Irvine
-                Corporate Organizer for Venus Hackathon Jan 2024-Present Mar 2024-Present
-            </h4>
-            <ul>
-                <li>Contacted companies for sponsorship opportunities for the 2024 Venus hackathon</li>
-                <li>Promote events to prospective sponsors through informational presentations and maintain consistent
-                    contacting to develop relationship.</li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
+        <h3>UC Irvine ICS31, ICS32</h3>
+        <p><strong>Lab Tutor</strong> | Sep 2022-Dec 2022, Apr 2024-June 2024</p>
+        <ul>
+            <li>Led weekly office hours, provided guidance during lab/lecture hours on weekly labs and projects to 200+ students, resulting in increased student participation and improvement in exam scores.</li>
+            <li>Responded promptly and effectively to student questions on a public discussion platform.</li>
+        </ul>
 
+        <h3>GNC Engineer at UAV Forge</h3>
+        <p><strong>Engineer</strong> | April 2023-June 2024</p>
+        <ul>
+            <li>Contributed to the development of autonomous drones by specializing in the navigation aspect of the project. Gained proficiency in programming languages and syntax relevant to drone navigation.</li>
+            <li>Modified the current script to include waypoint altitudes as well as longitudes/latitudes.</li>
+            <li>Created a visualization interface to visualize the targets, drop zones, and boundaries.</li>
+        </ul>
+    </div>
 
+    <div class="content">
+        <h2 class="section-title"><i class="fas fa-users"></i> Leadership Experience</h2>
+        <p><strong>UC Irvine Samueli School of Engineering</strong> - Engineering Network Ambassador | Mar 2024 - Present</p>
+        <p><strong>UC Irvine Corporate Organizer</strong> - Venus Hackathon | Jan 2024 - Present</p>
+    </div>
+
+    <div class="content">
+        <h2 class="section-title"><i class="fas fa-project-diagram"></i> Projects</h2>
+
+        <h3>NutriMeal | Python (Flask), Bootstrap</h3>
+        <p>Developed NutriMeal to provide quick, personalized recipes that cater to dietary preferences and restrictions using Edamam API.</p>
+        <p>Front-end: HTML, CSS, JavaScript and Bootstrap. Back-end: Python and Flask.</p>
+
+        <h3>PVC Recycling Web Application | Python (Flask), MySQL, Bootstrap, Google Maps API, Beautiful Soup</h3>
+        <p>Developed a full-stack web application focused on promoting PVC recycling and sustainability. It includes a collection center location using Google Maps API, web scraping with Beautiful Soup to list the latest news and education resources on PVC recycling, and a community blog page for users to view and share innovative PVC reuse stories.</p>
+        <p>The application is hosted on PythonAnywhere, using a MySQL database for data storage and management.</p>
+    </div>
 </body>
-
 </html>
